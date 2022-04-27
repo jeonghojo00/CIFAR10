@@ -18,6 +18,7 @@ Develop the the CNN model with the best accuracy and compare it with Transfer le
   - Models experimented(2nd): ["efficientnet_b5", "convnext_base", "vit_b_16", "mnasnet1_0", "regnet_y_8gf"]</br>
   
 ## Results
+![1stExp](/images/cifar10_study1_plot_slice.png)
 
 
 ## How to train and test(predict)
