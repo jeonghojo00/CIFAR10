@@ -13,14 +13,19 @@ Develop the the CNN model with the best accuracy and compare it with Transfer le
 ## Methodology
 1. Download/Load CIFAR10 images with different size images by models due to lack of memory capacity in Colab pro
 2. Use optuna to experiment each model with loaded CIFAR10 images </br>
-  - In the first experiment, used well known CNN models. In the second experiment, used the most recent CNN models with a model of the best accuracy in the first experiment </br>
+  - In the first experiment, used well known CNN models. In the second experiment, used the most recently developed CNN models.
   - Models experimented(1st): ["resnet18", "inception_v3", "densenet161", "alexnet", "mobilenet_v3_large", "vgg16", "mnasnet1_0"]</br>
   - Models experimented(2nd): ["efficientnet_b5", "convnext_base", "vit_b_16", "mnasnet1_0", "regnet_y_8gf"]</br>
   
 ## Results
 ![1stExp](/images/cifar10_study1_plot_slice.png)
+In the first experiment with the traditional CNN models,
+densenet161 performed the best.
 
-
-## How to train and test(predict)
+!![2ndExp](/images/cifar10_study2_plot_slice.png)
+In the second experiment with the recently developed CNN models,
+mnasnet1_0 performed the best.
 
 ## Future Improvements
+With the best and 2nd best model,
+Change CNN structures to get better accuracy
